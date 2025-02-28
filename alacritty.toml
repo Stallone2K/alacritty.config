@@ -1,0 +1,91 @@
+[terminal]
+shell = { program = "C:\\Windows\\System32\\wsl.exe", args = ["~"] }
+
+
+[window]
+padding = { x = 15, y = 15 }
+opacity = 0.85
+position = {x=560,y=240} #Startup Position
+title = "Stallone's Alacritty - Terminal"
+dynamic_title = false
+decorations = "none"
+
+[scrolling]
+history = 10000
+multiplier = 3 
+
+[font]
+size = 14
+
+[cursor]
+style = "Block"
+blink_interval = 500
+
+[colors.primary]
+background = "#000000"  
+foreground = "#ff8c00"  
+
+[colors.normal]
+black   = "#121212"
+red     = "#ff0044"
+green   = "#00ff66"
+yellow  = "#ffcc00"
+blue    = "#00b3ff"
+magenta = "#ff00ff"
+cyan    = "#00ffff"
+white   = "#cccccc"
+
+[colors.bright]
+black   = "#333333"
+red     = "#ff6666"
+green   = "#66ff99"
+yellow  = "#ffcc66"
+blue    = "#66ccff"
+magenta = "#ff66ff"
+cyan    = "#66ffff"
+white   = "#ffffff"
+
+[keyboard]
+
+bindings = [
+    # Copy to clipboard (Ctrl + Shift + C)
+    { key = "C", mods = "Control|Shift", action = "Copy" },
+
+    # Paste from clipboard (Ctrl + Shift + V)
+    { key = "V", mods = "Control|Shift", action = "Paste" },
+
+    # Paste from clipboard (Ctrl + V) - Additional binding
+    { key = "V", mods = "Control", action = "Paste" },
+
+    # Quit Alacritty (Ctrl + Shift + Q)
+    { key = "Q", mods = "Control|Shift", action = "Quit" },
+
+    # Open a new window (Ctrl + Shift + N)
+    { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+
+    # Toggle fullscreen (F11)
+    { key = "F11", action = "ToggleFullscreen" },
+
+    # Scroll up (Ctrl + Shift + Up Arrow)
+    { key = "Up", mods = "Control|Shift", action = "ScrollPageUp" },
+
+    # Scroll down (Ctrl + Shift + Down Arrow)
+    { key = "Down", mods = "Control|Shift", action = "ScrollPageDown" },
+ 
+    # Increase Font Size (Ctrl + Plus)
+    { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+
+    # Decrease Font Size (Ctrl + Minus)
+    { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+    
+    #Quit Alacritty
+    { key = "Q", mods = "Control", action = "Quit" },
+
+    #Quit Alacritty
+    { key = "X", mods = "Control", action = "Quit" },
+
+    #Toggle FullScreen
+    { key = "F", mods = "Control|Shift", action =  "ToggleFullscreen" }
+]
+
+
