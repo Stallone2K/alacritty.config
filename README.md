@@ -1,6 +1,6 @@
 # Inferno: Alacritty
 
-### Alacritty Theme Based On Sunset Orange  - Stallone2K
+### Alacritty Theme Based On Sunset Orange 🟠 - Stallone2K
 
 ![Inferno Alacritty Theme](https://github.com/Stallone2K/alacritty.config/blob/Main/Inferno.png)
 
@@ -16,6 +16,6 @@ import = [ "https://github.com/Stallone2K/alacritty.config/blob/Main/inferno.tom
 
 ### Manually 
 
-Paste The Contents Of [inferno.toml](https://github.com/Stallone2K/alacritty.config/blob/Main/inferno.toml) Directly Into Your Existing `alacritty.toml` File At The Root Level.
+Paste The Contents Of [`inferno.toml`](https://github.com/Stallone2K/alacritty.config/blob/Main/inferno.toml) Directly Into Your Existing `alacritty.toml` File At The Root Level.
 
-Check Out My Alacritty Configuration: [`alacritty.toml`](https://github.com/Stallone2K/alacritty.config/blob/Main/alacritty.toml)
+Check Out My Alacritty Configuration: [`alacritty.toml`](https://github.com/Stallone2K/alacritty.config/blob/Main/alacritty.toml) 😉
