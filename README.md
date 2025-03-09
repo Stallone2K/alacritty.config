@@ -18,6 +18,5 @@ import = [ "https://github.com/Stallone2K/alacritty.config/blob/Main/inferno.tom
 
 Paste The Contents Of [`inferno.toml`](https://github.com/Stallone2K/alacritty.config/blob/Main/inferno.toml) Directly Into Your Existing `alacritty.toml` File At The Root Level.
 
-```
+
 Check Out My Alacritty Configuration: [`alacritty.toml`](https://github.com/Stallone2K/alacritty.config/blob/Main/alacritty.toml) 😉
-```
