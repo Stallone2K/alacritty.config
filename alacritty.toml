@@ -1,21 +1,19 @@
-[terminal]
-shell = { program = "C:\\Windows\\System32\\wsl.exe", args = ["~"] }
-
+# [terminal]
+# shell = { program = "C:\\Windows\\System32\\wsl.exe", args = ["~"] }
+# WSL Users (Windows)
 
 [window]
 padding = { x = 15, y = 15 }
 opacity = 0.85
 position = {x=560,y=240} #Startup Position
-title = "Stallone's Alacritty - Terminal"
-dynamic_title = false
-decorations = "none"
+decorations = "Buttonless"
 
 [scrolling]
 history = 10000
 multiplier = 3 
 
 [font]
-size = 14
+size = 18
 
 [cursor]
 style = "Block"
@@ -46,46 +44,50 @@ cyan    = "#66ffff"
 white   = "#ffffff"
 
 [keyboard]
-
+# Use Control For Windows Users 
 bindings = [
-    # Copy to clipboard (Ctrl + Shift + C)
-    { key = "C", mods = "Control|Shift", action = "Copy" },
+    # Copy to clipboard (Cmd + Shift + C)
+    { key = "C", mods = "Super|Shift", action = "Copy" },
 
-    # Paste from clipboard (Ctrl + Shift + V)
-    { key = "V", mods = "Control|Shift", action = "Paste" },
+    # Paste from clipboard (Cmd + Shift + V)
+    { key = "V", mods = "Super|Shift", action = "Paste" },
 
-    # Paste from clipboard (Ctrl + V) - Additional binding
-    { key = "V", mods = "Control", action = "Paste" },
+    # Paste from clipboard (Cmd + V) - Additional binding
+    { key = "V", mods = "Super", action = "Paste" },
 
-    # Quit Alacritty (Ctrl + Shift + Q)
-    { key = "Q", mods = "Control|Shift", action = "Quit" },
+    # Quit Alacritty (Cmd + Shift + Q)
+    { key = "Q", mods = "Super|Shift", action = "Quit" },
 
-    # Open a new window (Ctrl + Shift + N)
-    { key = "N", mods = "Control|Shift", action = "SpawnNewInstance" },
+    # Open a new window (Cmd + Shift + N)
+    { key = "N", mods = "Super|Shift", action = "SpawnNewInstance" },
 
     # Toggle fullscreen (F11)
     { key = "F11", action = "ToggleFullscreen" },
 
-    # Scroll up (Ctrl + Shift + Up Arrow)
-    { key = "Up", mods = "Control|Shift", action = "ScrollPageUp" },
+    # Scroll up (Cmd + Shift + Up Arrow)
+    { key = "Up", mods = "Super|Shift", action = "ScrollPageUp" },
 
-    # Scroll down (Ctrl + Shift + Down Arrow)
-    { key = "Down", mods = "Control|Shift", action = "ScrollPageDown" },
+    # Scroll down (Cmd + Shift + Down Arrow)
+    { key = "Down", mods = "Super|Shift", action = "ScrollPageDown" },
  
-    # Increase Font Size (Ctrl + Plus)
-    { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+    # Increase Font Size (Cmd + Plus)
+    { key = "Plus", mods = "Super", action = "IncreaseFontSize" },
 
-    # Decrease Font Size (Ctrl + Minus)
-    { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+    # Decrease Font Size (Cmd + Minus)
+    { key = "Minus", mods = "Super", action = "DecreaseFontSize" },
     
-    #Quit Alacritty
-    { key = "Q", mods = "Control", action = "Quit" },
+    # Quit Alacritty (Cmd + Q)
+    { key = "Q", mods = "Super", action = "Quit" },
 
-    #Quit Alacritty
-    { key = "X", mods = "Control", action = "Quit" },
+    # Quit Alacritty (Cmd + X)
+    { key = "X", mods = "Super", action = "Quit" },
 
-    #Toggle FullScreen
-    { key = "F", mods = "Control|Shift", action =  "ToggleFullscreen" }
+    # Toggle Fullscreen (Cmd + Shift + F)
+    { key = "F", mods = "Super|Shift", action = "ToggleFullscreen" }
 ]
 
+[mouse]
+bindings = [
+    { mouse = "Right", action = "Paste" }
+]
 
